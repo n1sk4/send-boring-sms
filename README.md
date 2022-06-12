@@ -14,7 +14,7 @@ Application
 The app Main Activity is comprised of a RecyclerView object that contains rows of SMS templates.
 The row can be expanded to show more info and to edit the data inside.
 
-<img src="![contracted_smsApp](https://user-images.githubusercontent.com/92214769/173253570-6afee2b2-665b-40b6-8182-74bf956b4aa5.jpg)" alt="drawing" width="200"/>
+<img src="https://user-images.githubusercontent.com/92214769/173253570-6afee2b2-665b-40b6-8182-74bf956b4aa5.jpg" alt="drawing" width="200"/>
 
 
 ![expanded_smsApp](https://user-images.githubusercontent.com/92214769/173253588-5fb50236-596c-4665-800a-5e425ff29ac0.jpg)
