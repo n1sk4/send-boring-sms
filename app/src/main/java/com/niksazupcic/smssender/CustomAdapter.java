@@ -4,12 +4,9 @@ import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.Intent;
 import android.telephony.SmsManager;
-import android.view.KeyEvent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.view.inputmethod.EditorInfo;
-import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -80,6 +77,13 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.MyViewHold
             }
         });
 
+        holder.notification.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startNewActivity(position);
+            }
+        });
+
         holder.send.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -118,14 +122,13 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.MyViewHold
     }
 
     private void startNewActivity(int position){
-        Intent intent = new Intent(context, UpdateSMSActivity.class);
+        Intent intent = new Intent(context, SetupActivity.class);
         intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         context.startActivity(intent);
     }
 
     private void sendSMS(String phone, String message){
         SmsManager smsManager = SmsManager.getDefault();
-        Toast.makeText(context, phone, Toast.LENGTH_SHORT).show();
         smsManager.sendTextMessage(phone, null, message, null, null);
         Toast.makeText(context, "SMS sent.",
                 Toast.LENGTH_LONG).show();

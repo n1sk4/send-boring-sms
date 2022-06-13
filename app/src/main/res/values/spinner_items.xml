@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spinner_items">
+        <item>Send once</item>
+        <item>Send on time</item>
+        <item>Send on time and date</item>
+    </string-array>
+</resources>

@@ -51,9 +51,9 @@ public class MainActivity extends AppCompatActivity {
                         PERMISSIONS_REQUEST_SEND_SMS);
             }
         }
-        SMSItems item = new SMSItems();
-        SMSItems item2 = new SMSItems();
-        SMSItems item3 = new SMSItems();
+        SMSItems item = new SMSItems("I. ZONA", "700101", "ZG1234AB");
+        SMSItems item2 = new SMSItems("II. ZONA", "700102", "ZG1234AB");
+        SMSItems item3 = new SMSItems("III. ZONA", "700103", "ZG1234AB");
         SMSItems item4 = new SMSItems();
 
         phone = "123456"; //Enter your phone number here

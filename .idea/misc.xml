@@ -4,7 +4,11 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/_SMSsender/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.1415" />
+        <entry key="..\:/_SMSsender/app/src/main/res/drawable/ic_baseline_notifications_24.xml" value="0.1" />
+        <entry key="..\:/_SMSsender/app/src/main/res/drawable/ic_toggle.xml" value="0.1" />
+        <entry key="..\:/_SMSsender/app/src/main/res/drawable/ic_toggle_background.xml" value="0.1" />
         <entry key="..\:/_SMSsender/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/_SMSsender/app/src/main/res/layout/activity_setup.xml" value="0.25" />
         <entry key="..\:/_SMSsender/app/src/main/res/layout/card_sms_item.xml" value="0.4946401225114854" />
         <entry key="..\:/_SMSsender/app/src/main/res/menu/add_new_menu.xml" value="0.1" />
       </map>

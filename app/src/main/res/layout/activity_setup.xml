@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SetupActivity">
+
+    <ImageButton
+        android:id="@+id/date_imageButton"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="@+id/time_imageButton"
+        app:layout_constraintStart_toStartOf="@+id/time_imageButton"
+        app:layout_constraintTop_toBottomOf="@+id/time_imageButton"
+        app:srcCompat="@drawable/ic_baseline_calendar_month_24" />
+
+    <ImageButton
+        android:id="@+id/time_imageButton"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/option_spinner"
+        app:srcCompat="@drawable/ic_baseline_access_time_24" />
+
+    <TextView
+        android:id="@+id/time_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif-monospace"
+        android:text="20:00:00"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/time_imageButton"
+        app:layout_constraintEnd_toStartOf="@+id/time_imageButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/time_imageButton" />
+
+    <TextView
+        android:id="@+id/date_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif-monospace"
+        android:text="13.6.2022"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/date_imageButton"
+        app:layout_constraintEnd_toEndOf="@+id/time_textView"
+        app:layout_constraintStart_toStartOf="@+id/time_textView"
+        app:layout_constraintTop_toTopOf="@+id/date_imageButton" />
+
+    <TextView
+        android:id="@+id/notifications_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif-monospace"
+        android:text="Notifications"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/notifications_toggleButton"
+        app:layout_constraintEnd_toEndOf="@+id/date_textView"
+        app:layout_constraintStart_toStartOf="@+id/date_textView"
+        app:layout_constraintTop_toTopOf="@+id/notifications_toggleButton" />
+
+    <Spinner
+        android:id="@+id/option_spinner"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:spinnerMode="dialog"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/done_imageButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="32dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ic_baseline_done_24" />
+
+    <ToggleButton
+        android:id="@+id/notifications_toggleButton"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="32dp"
+        android:drawableTop="@drawable/ic_toggle"
+        android:gravity="center"
+        android:textOn="on"
+        android:textOff="off"
+        android:textSize="0dp"
+        app:layout_constraintEnd_toEndOf="@+id/date_imageButton"
+        app:layout_constraintStart_toStartOf="@+id/date_imageButton"
+        app:layout_constraintTop_toBottomOf="@+id/date_imageButton" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
