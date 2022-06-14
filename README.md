@@ -44,6 +44,8 @@ In the spinner object you can select between a few different options:
   - Send on time
   - Send on time and date
   - **TODO**: Notification only option 
+  - 
+<img src="https://user-images.githubusercontent.com/92214769/173526146-72d78727-c846-44d9-a6b1-fae439f228bb.jpg" alt="drawing" width="200"/>
 
 <img src="https://user-images.githubusercontent.com/92214769/173523996-c203d49d-e1f1-4e1d-9118-5175100becd6.jpg" alt="drawing" width="200"/>
 
