@@ -1,4 +1,4 @@
-# Send boring SMS messages
+# Send boring SMS messages -> **send_it**
 About
 =====
 This app was a single day project to see how SMS API works in Android Native.
