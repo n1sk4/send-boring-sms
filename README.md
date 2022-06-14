@@ -3,7 +3,7 @@
 
 <img src="https://user-images.githubusercontent.com/92214769/173541651-ec3bb26e-a009-449d-ac4c-5aadb38cef20.jpg" alt="drawing" width="75"/>
 
-
+About
 =====
 This app was a single day project to see how SMS API works in Android Native.
 
