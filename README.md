@@ -1,4 +1,5 @@
-# Send boring SMS messages -> **send_it**
+# Send boring SMS messages -> **send_it** <img src="https://user-images.githubusercontent.com/92214769/173539786-ff7858b8-8ea2-4d34-a018-5e8939cd1d87.jpg" alt="drawing" width="75"/>
+
 About
 =====
 This app was a single day project to see how SMS API works in Android Native.
