@@ -49,21 +49,16 @@ In the spinner object you can select between a few different options:
   - Send on time and date
   - **TODO**: Notification only option 
   - 
-<img src="https://user-images.githubusercontent.com/92214769/173526146-72d78727-c846-44d9-a6b1-fae439f228bb.jpg" alt="drawing" width="200"/>
+<img src="https://user-images.githubusercontent.com/92214769/173526146-72d78727-c846-44d9-a6b1-fae439f228bb.jpg" alt="drawing" width="200"/> <img src="https://user-images.githubusercontent.com/92214769/173523996-c203d49d-e1f1-4e1d-9118-5175100becd6.jpg" alt="drawing" width="200"/>
 
-<img src="https://user-images.githubusercontent.com/92214769/173523996-c203d49d-e1f1-4e1d-9118-5175100becd6.jpg" alt="drawing" width="200"/>
 
 After the type of task has been selected, you can continue by selecting time and date.
 This is done by clicking on the image buttons which then open Date picker and Time picker respectivly.
 
-<img src="https://user-images.githubusercontent.com/92214769/173525160-b4e89a7d-b92d-4952-b421-c741615ab6aa.jpg" alt="drawing" width="200"/>
-
-<img src="https://user-images.githubusercontent.com/92214769/173525179-7f79b9fd-8372-4254-9aba-f9363d16b223.jpg" alt="drawing" width="200"/>
+<img src="https://user-images.githubusercontent.com/92214769/173525160-b4e89a7d-b92d-4952-b421-c741615ab6aa.jpg" alt="drawing" width="200"/> <img src="https://user-images.githubusercontent.com/92214769/173525179-7f79b9fd-8372-4254-9aba-f9363d16b223.jpg" alt="drawing" width="200"/>
 
 If you want notifications for reminding you to send the SMS, or that the time of the sending is neigh, you can click on the Notifications button.
 
-<img src="https://user-images.githubusercontent.com/92214769/173525793-d7457e63-e49c-4eb9-9947-d371acbf67b5.jpg" alt="drawing" width="200"/>
-
-<img src="https://user-images.githubusercontent.com/92214769/173525810-0eaee3f4-95f1-4648-9ac5-f10cc2db2915.jpg" alt="drawing" width="200"/>
+<img src="https://user-images.githubusercontent.com/92214769/173525793-d7457e63-e49c-4eb9-9947-d371acbf67b5.jpg" alt="drawing" width="200"/> <img src="https://user-images.githubusercontent.com/92214769/173525810-0eaee3f4-95f1-4648-9ac5-f10cc2db2915.jpg" alt="drawing" width="200"/>
 
 When you're done, just click on the checkmark button and you're finnished with the setup. 
